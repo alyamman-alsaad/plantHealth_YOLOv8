@@ -1,3 +1,3 @@
-#plantHealth_YOLOv8
+# plantHealth_YOLOv8
 Yolov8 transfer learning model to detect plant health condition. Has 3 classes: healthy, bacterial, or invalid. Original model was trained on ~2000 images (equally split between the 3 classes). Plant images were taken
 from free online sources and are specifically of tomato plants. Converted to int8 quantization tflite model to be run on an esp32s3 sense with a resolution of 96*96.
